@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz on Triangle</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="quiz.css" />
+  </head>
+  <body>
+    <nav>
+      <nav class="navbar">
+        <ul class="nav-pills no-bullets">
+          <li class="li-inline"><a href="../index.html">Angles</a></li>
+          <li class="li-inline">
+            <a class="link highlight" href="#">Quiz</a>
+          </li>
+          <li class="li-inline"><a href="../Hypotenuse/">Hypotenus</a></li>
+          <li class="li-inline"><a href="../Area/">Area</a></li>
+        </ul>
+      </nav>
+    </nav>
+    <form class="quiz-form">
+      <div class="questions">
+        <p>
+          The right angle triangle must have?
+        </p>
+        <label><input type="radio" name="ques1" value="1 right angle" />1 right angle</label>
+        <label><input type="radio" name="ques1" value="2 right angle" />2 right angle</label>
+        <label><input type="radio" name="ques1" value="3 right angle" />3 right angle</label>
+      </div>
+      <hr />
+      <div class="question">
+        <p>If a triangle has an angle of 90°, what is it called?</p>
+        <label><input type="radio" name="ques2" value="obtuse" />Obtuse</label>
+        <label><input type="radio" name="ques2" value="acute" />Acute</label>
+        <label
+          ><input type="radio" name="ques2" value="right angled" />Right
+          Angled</label
+        >
+      </div>
+      <hr />
+      <div class="question">
+        <p>
+          A kind of triangle who has 2 equal side
+        </p>
+        <label><input type="radio" name="ques3" value="isosceles" />isosceles</label>
+        <label><input type="radio" name="ques3" value="exterior" />exterior</label>
+        <label><input type="radio" name="ques3" value="equilateral" />equilateral</label>
+      </div>
+      <hr />
+      <div class="question">
+        <p>Triangle greater than 90 degree known as </p>
+        <label
+          ><input
+            type="radio"
+            name="ques4"
+            value="Obtuse"
+          />Obtuse</label
+        >
+        <label
+          ><input
+            type="radio"
+            name="ques4"
+            value="Acute"
+          />Acute</label
+        >
+        <label
+          ><input
+            type="radio"
+            name="ques4"
+            value="Right"
+          />Right</label
+        >
+      </div>
+      <hr />
+      <div class="question">
+        <p>Triangle has how many sides?</p>
+        <label
+          ><input type="radio" name="ques5" value="One" />One</label
+        >
+        <label
+          ><input type="radio" name="ques5" value="Two" />Two</label
+        >
+        <label
+          ><input
+            type="radio"
+            name="ques5"
+            value="Three"
+          />Three</label
+        >
+      </div>
+      <hr />
+    </form>
+    <button id="submit-btn">Submit Answers</button>
+    <div id="output"></div>
+    <footer>
+      Made by Aniyuksh | Mark12
+    </footer>
+    <script src="quiz.js"></script>
+  </body>
+</html>

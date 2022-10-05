@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Mulish:ital,wght@1,200&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: var(--bluish);
+  font-family: 'Mulish', sans-serif;
+  /* overflow: hidden; */
+  font-weight:bolder;
+}
+
+:root{
+  --primary-color : #d4ecd4 ;
+  --gray : #5c747c ;
+  --bluish : #2a434f  ;
+}
+
+.no-bullets {
+  list-style: none;
+  padding: 0rem 0.7rem;
+  padding-inline-start: 0px;
+  /* position: relative; */
+  display: block;
+  margin: auto;
+  align-items: center;
+}
+
+.nav-pills {
+  text-align: left;
+  background-color: var(--primary-color);
+  padding: 1rem;
+  margin-bottom: 5rem;
+  /* border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem; */
+}
+
+.li-inline {
+  display: inline;
+  direction: ltr;
+  padding: 0rem 0.75rem;
+  background-color: var(--primary-color);
+}
+
+.highlight {
+  color: var(--primary-color);
+  font-weight: bold;
+  background-color: black;
+  border-radius: 1rem;
+  padding: 0.3rem;
+}
+
+h1,
+p {
+  text-align: center;
+  margin: 1rem auto;
+}
+
+label {
+  width: 100%;
+  display: block;
+  margin: 1rem auto;
+  text-align: center;
+  font-size: larger;
+}
+
+input {
+  text-align: center;
+  border-radius: 1rem;
+  font-size: large;
+}
+
+p {
+  font-size: larger;
+}
+
+#output {
+  text-align: center;
+  margin: 1rem auto;
+  font-size: large;
+  background-color: var(--primary-color);
+}
+
+footer {
+  background-color: var(--primary-color);
+  text-align: center;
+  /* padding-top: 2rem; */
+  padding: 2rem;
+  font-weight: bold;
+  margin-top: 9.5rem;
+  
+}
+
+#portfolio {
+  text-decoration: none;
+  color: var(--gray);
+  font-size: medium;
+  font-weight: bold;
+  background-color: none;
+}
+
+li a {
+  text-decoration: none;
+  color: black;
+  font-size: larger;
+  background-color: var(--primary-color);
+}

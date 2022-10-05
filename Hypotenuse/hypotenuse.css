@@ -1,0 +1,18 @@
+#calc-btn {
+  font-size: large;
+  display: block;
+  margin: auto;
+  padding: 0.2rem 1rem;
+  border-radius: 1rem;
+  border-color: var(--primary-color);
+}
+
+footer {
+  background-color: var(--primary-color);
+  text-align: center;
+  /* padding-top: 2rem; */
+  padding: 2rem;
+  font-weight: bold;
+  margin-top: 15rem;
+  
+}
